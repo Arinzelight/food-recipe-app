@@ -22,16 +22,10 @@ const Meal = () => {
     setUrl(`https://www.themealdb.com/api/json/v1/1/search.php?f=${alpha}`);
   };
 
-  // const handleSearch = () => {
-  //   // Here, you can implement the logic to read the entered text
-  //   setUrl(`https://www.themealdb.com/api/json/v1/1/search.php?s=${search}
-  //   `);
-  // };
-
   const handleSearch = (e) => {
     // Check if the pressed key is Enter (key code 13)
     if (e.key === "Enter") {
-      // Call the handleSearch function when Enter key is pressed
+      // setUrl to searched name when Enter key is pressed
       setUrl(`https://www.themealdb.com/api/json/v1/1/search.php?s=${search}
       `);
     }
