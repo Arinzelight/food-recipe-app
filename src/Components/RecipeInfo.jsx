@@ -21,7 +21,7 @@ const RecipeInfo = () => {
       ) : (
         <>
           <div className="banner-container">
-            <img src={item.strMealThumb} alt="Meal Image"></img>
+            <img src={item.strMealThumb} alt="Meal"></img>
             <div className="inner-content">
               <h1>{item.strMeal}</h1>
               <h2>{item.strArea} Food</h2>
@@ -62,7 +62,11 @@ const RecipeInfo = () => {
             </div>
           </div>
           <div className="video">
-            <iframe src={`https://www.youtube.com/embed/6R8ffRRJcrg`}></iframe>
+            <iframe
+              src={`https://www.youtube.com/embed/6R8ffRRJcrg?autoplay=1`}
+              allowFullScreen
+              title="Recipe demo"
+            ></iframe>
           </div>
         </>
       )}
