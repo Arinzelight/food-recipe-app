@@ -4,7 +4,7 @@ import MealItem from "./MealItem";
 
 const Meal = () => {
   const [url, setUrl] = useState(
-    "https://www.themealdb.com/api/json/v1/1/search.php?f=a"
+    "https://www.themealdb.com/api/json/v1/1/search.php?f=l"
   );
   const [item, setItem] = useState();
   const [show, setShow] = useState(false);
