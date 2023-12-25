@@ -73,6 +73,7 @@ body{
 }
 
 
+
 .container{
     width: 90%;
     margin:25px auto;
@@ -112,7 +113,7 @@ body{
 .banner-container{
    height: 500px;
    max-width: 100%;
-   /* margin: 2rem 5rem; */
+   position: relative;
 }
 
 .banner-container img{
@@ -156,12 +157,13 @@ body{
     color: #fff;
 }
 .video{
-    width: 80%;
+    width: 70%;
+    height: 500px;
     margin: 3rem auto;
 }
 
 iframe{
-    height: 515px;
+    height: 90%;
     width: 100%;
 }
 
@@ -181,18 +183,31 @@ iframe{
     
     }
 
+    .banner-container{
+        height: 300px;
+    }
+
     .banner-container .inner-content{
         font-size: 0.7rem;
        
     }
 
     .video{
-        width: 90%;
-        height: 70%;
+        height: 250px;
       
     }
 
-    .iframe{
-        height: 10px;
+    .instructions, .ingredients h4{
+        width: 85%;
+        font-size: 16px;
+        font-family: 'Times New Roman', Times, serif;
+      
+    
     }
+
+    .recipe-details{
+        justify-content: flex-start;
+        margin-left: 30px;
+    }
+
 }
