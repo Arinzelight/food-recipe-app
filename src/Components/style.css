@@ -46,7 +46,8 @@ body{
     padding: 0.3rem 1rem;
     background-color: #ffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-size: 18px;
+    font-family: var(--text-font);
+    font-size: 12px;
 }
 
 .search-bar:hover{
