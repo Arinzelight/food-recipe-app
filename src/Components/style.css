@@ -11,9 +11,14 @@
     --text-font: 'Dosis', sans-serif;
 
 }
+
+html {
+    scroll-behavior: smooth;
+  }
 body{
     /* background-color: #fcde67; */
     background-color: #432323;
+    scroll-behavior: smooth;
 }
 .main{
     width: 80%;
@@ -25,7 +30,7 @@ body{
     font-size: 44px;
     font-weight:900;
     letter-spacing: 1px;
-    padding-top:1rem;
+    padding-top:0.8rem;
     margin: 1rem;
 }
 
@@ -42,7 +47,7 @@ body{
     height:30px;
     border:none;
     outline:none;
-    border-radius: 7px;
+    border-radius: 4px;
     padding: 0.3rem 1rem;
     background-color: #ffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -73,7 +78,6 @@ body{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 0 0px 5px 5px;
     border-radius: 50%;
-   
     cursor: pointer;
 
 }
@@ -81,6 +85,7 @@ body{
 .numBox h3{
     font-family: var(--text-font);
     font-weight: 100;
+    transition: .3s;
 }
 
 .numBox:hover{
@@ -110,6 +115,7 @@ body{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 4px 4px 8px 4px;
     flex-grow: 1;
+    transition: .3s ease-in-out;
 }
 .card:hover{
     cursor: pointer;
