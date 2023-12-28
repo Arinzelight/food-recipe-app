@@ -36,9 +36,9 @@ const Meal = () => {
       <div className="heading">
         <h1>Search Your Food Recipe</h1>
         <h4>
-          Our user-friendly interface makes navigating through recipes a breeze.
-          Browse categories, search for specific dishes, or explore curated
-          collections to discover new and exciting culinary adventures.
+          Effortlessly navigate recipes with our user-friendly interface. Browse
+          categories, search dishes, and explore curated collections for
+          exciting culinary adventures.
         </h4>
       </div>
       <div className="searchBox">
