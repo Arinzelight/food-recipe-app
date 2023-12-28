@@ -31,7 +31,9 @@ body{
 
 .heading h4{
     color: #ffff;
-    /* font-family: var(--text-font); */
+    font-family: var(--text-font);
+    font-weight: 300;
+   
    
 }
 .search-bar{
@@ -60,28 +62,34 @@ body{
     /* margin: 2.5rem 0; */
 }
 .numBox {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     background-color: #ffff;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(236, 199, 15);
+    color: #432323;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 0 0px 5px 5px;
-    border-radius: 2px;
+    border-radius: 50%;
+   
     cursor: pointer;
 
 }
 
+.numBox h3{
+    font-family: var(--text-font);
+    font-weight: 300;
+}
+
 .numBox:hover{
-    box-shadow: 0 2px 8px rgba(147, 146, 146, 0.1);
+    background-color: #ac9a9a;
 }
 
 
 
 .container{
-    width: 90%;
+    width: 100%;
     margin:25px auto;
     display: flex;
     align-items: center;
@@ -93,11 +101,12 @@ body{
 }
 .card{
     flex-basis: 100px;
-    min-height: 10.3rem;
-    border-radius: 1rem;
+    /* width: 150px; */
+    min-height: 10.4rem;
+    border-radius: 5px;
     background-color: #ffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 10px;
+    padding: 2px;
     flex-grow: 1;
 }
 .card:hover{
@@ -107,7 +116,7 @@ body{
 }
 .card img{
     width: 100%;
-    border-radius: 1rem 1rem 0 0;
+    border-radius:
 }
 .card h3{
     color:rgb(47, 97, 47);
