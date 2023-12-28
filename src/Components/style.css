@@ -42,7 +42,7 @@ body{
     height:40px;
     border:none;
     outline:none;
-    border-radius: 1rem;
+    border-radius: 7px;
     padding: 0.3rem 1rem;
     background-color: #ffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -80,11 +80,11 @@ body{
 
 .numBox h3{
     font-family: var(--text-font);
-    font-weight: 300;
+    font-weight: 100;
 }
 
 .numBox:hover{
-    background-color: #ac9a9a;
+    background-color: #fff3f3;
 }
 
 
@@ -101,28 +101,35 @@ body{
     color: #ffff;
 }
 .card{
-    flex-basis: 100px;
+    flex-basis: 120px;
     /* width: 150px; */
-    min-height: 10.4rem;
+    min-height: 11rem;
     border-radius: 5px;
     background-color: #ffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 2px;
+    padding: 3px;
     flex-grow: 1;
 }
 .card:hover{
     cursor: pointer;
-    background-color: #f8f3f3;
+    border-radius: 0 8px 0px 8px;
+    color: #fff;
+   
 
 }
 .card img{
     width: 100%;
-    border-radius:
+    border-radius: 2px
 }
+
 .card h3{
-    color:rgb(47, 97, 47);
+    color: #432323;
     font-size: 15px;
+    font-family: var(--text-font);
+    font-weight: 600;
 }
+
+
 
 
 
