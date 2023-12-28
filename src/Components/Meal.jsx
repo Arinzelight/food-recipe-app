@@ -44,7 +44,7 @@ const Meal = () => {
       <div className="searchBox">
         <input
           type="search"
-          placeholder="Search for meal"
+          placeholder="Search..."
           className="search-bar"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
